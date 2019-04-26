@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// This code makes a right-aligned pyramid based on the Super Mario Game.
+
 void pyramidheight(void);
 
 int main(void)
