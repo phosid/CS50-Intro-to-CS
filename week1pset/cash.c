@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <math.h>
 
+/* This code represents a greedy algorithm where you can enter how much change you are owed
+ and it will return the smallest amount of coins you need to make up that change */
+
 int main(void)
 {
     float dollars;
