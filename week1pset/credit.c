@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// This code utilizes Luhn's Algorithm to decipher if a credit card number (whether that be VISA, MASTERCARD, OR AMEX) is valid.
+// If not valid, it will print INVALID.
+
 void luhnsalgorithm(void);
 
 int main(void)
