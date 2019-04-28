@@ -95,7 +95,10 @@ void luhnsalgorithm(void)
     long sixteenthdigit2 = sixteenthproduct / 10;
     // printf("%lu, %lu\n", sixteenthdigit1, sixteenthdigit2);
    
-    long sum = seconddigit1 + seconddigit2 + fourthdigit1 + fourthdigit2 + sixthdigit1 + sixthdigit2 + eighthdigit1 + eighthdigit2 + tenthdigit1 + tenthdigit2 + twelfthdigit1 + twelfthdigit2 + fourteenthdigit1 + fourteenthdigit2 + sixteenthdigit1 + sixteenthdigit2;
+    long sum = seconddigit1 + seconddigit2 + fourthdigit1 + fourthdigit2 + 
+        sixthdigit1 + sixthdigit2 + eighthdigit1 + eighthdigit2 + 
+        tenthdigit1 + tenthdigit2 + twelfthdigit1 + twelfthdigit2 + fourteenthdigit1 + 
+        fourteenthdigit2 + sixteenthdigit1 + sixteenthdigit2;
     // printf("%lu\n", sum);
     
     long firstnumber = cardnumber % 10;
